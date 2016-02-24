@@ -8,9 +8,9 @@ services:
   #- rabbitmq
   #- elasticsearch
   #- redis
- # - neo4j
-  - couchdb
-  - rethinkdb
+  - neo4j
+  #- couchdb
+  #- rethinkdb
 # Version number
 jdk:
   - openjdk6
