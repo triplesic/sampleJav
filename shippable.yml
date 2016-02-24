@@ -1,6 +1,10 @@
 # Language setting
 language: java
-
+services:
+  - mysql
+  - postgres
+  - mongodb
+  - redis
 # Version number
 jdk:
   - openjdk6
