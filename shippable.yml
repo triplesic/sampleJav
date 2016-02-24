@@ -6,7 +6,7 @@ services:
   - mysql
   - postgres
   - mongodb
-  - elasticsearch
+  #- elasticsearch
   - redis
 jdk:
   - openjdk6
