@@ -9,6 +9,11 @@ jdk:
   - oraclejdk8
 
 build:
+
+  pre_ci_boot:
+    image_name: drydock/u14javall
+    image_tag: prod
+    pull: true  
   ci:
     - java -version
     
