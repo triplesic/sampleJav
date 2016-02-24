@@ -5,6 +5,8 @@ services:
   - postgres
   - mongodb
   - redis
+  - memcache
+  - rabbitmq
 # Version number
 jdk:
   - openjdk6
