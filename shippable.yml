@@ -1,5 +1,11 @@
 # Language setting
 language: java
+services:
+  - mysql
+  - postgres
+  - mongodb
+  - memcache
+  - redis
 
 # Version number
 jdk:
