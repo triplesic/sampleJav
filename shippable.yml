@@ -6,6 +6,7 @@ services:
   - mongodb
   - memcache
   - redis
+  - rabbitmq
 
 # Version number
 jdk:
