@@ -11,3 +11,4 @@ jdk:
 build:
   ci:
     - java -version
+    
