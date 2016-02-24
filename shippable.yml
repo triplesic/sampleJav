@@ -4,6 +4,8 @@ services:
   - mysql
   - postgres
   - mongodb
+  - memcache
+  - rabbitmq
   #- elasticsearch
   - redis
 # Version number
