@@ -4,7 +4,7 @@ services:
   - mysql
   - postgres
   - mongodb
-  - elasticsearch
+  #- elasticsearch
   - redis
 # Version number
 jdk:
