@@ -2,6 +2,12 @@
 language: java
 
 # Version number
+services:
+  - mysql
+  - postgres
+  - mongodb
+  - elasticsearch
+  - redis
 jdk:
   - openjdk6
   - openjdk7
