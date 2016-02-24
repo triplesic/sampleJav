@@ -7,8 +7,9 @@ services:
   #- memcache
   #- redis
   #- rabbitmq
-  - couchdb
-  - rethinkdb
+  #- couchdb
+  #- rethinkdb
+  - neo4j 
 # Version number
 jdk:
   - openjdk6
