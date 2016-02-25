@@ -8,8 +8,10 @@ services:
   - mongodb
   - elasticsearch
   - redis
+  - rabbitmq
+  - memcache
+  #- selenium
 jdk:
-  - openjdk6
   - openjdk7
   - oraclejdk7
   - oraclejdk8
