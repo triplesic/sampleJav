@@ -7,9 +7,10 @@ services:
   - redis
   - memcache
   - rabbitmq
+  - elasticsearch
+  #- selenium
 # Version number
 jdk:
-  - openjdk6
   - openjdk7
   - oraclejdk7
   - oraclejdk8
