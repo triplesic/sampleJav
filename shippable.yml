@@ -1,18 +1,19 @@
 # Language setting
 language: java
 services:
- #- mysql
-  #- postgres
-  #- mongodb
-  #- memcache
-  #- redis
-  #- rabbitmq
-  #- couchdb
-  #- rethinkdb
+  - mysql
+  - postgres
+  - mongodb
+  - memcache
+  - redis
+  - rabbitmq
+  - elasticsearch
+  #- selenium
+  - couchdb
+  - rethinkdb
   - neo4j 
 # Version number
 jdk:
-  - openjdk6
   - openjdk7
   - oraclejdk7
   - oraclejdk8
