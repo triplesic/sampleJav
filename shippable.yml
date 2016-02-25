@@ -10,7 +10,7 @@ services:
   - redis
   - rabbitmq
   - memcache
-  #- selenium
+ 
 jdk:
   - openjdk7
   - oraclejdk7
