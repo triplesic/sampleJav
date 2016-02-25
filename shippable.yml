@@ -8,7 +8,6 @@ services:
   - redis
   - rabbitmq
   - elasticsearch
-  #- selenium
   - couchdb
   - rethinkdb
   - neo4j 
