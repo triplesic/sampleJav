@@ -1,13 +1,25 @@
 # Language setting
 language: java
-
+services:
+  - mysql
+  - postgres
+  - mongodb
+  - redis
+  - memcache
+  - rabbitmq
+  - elasticsearch
+ 
 # Version number
 jdk:
-  - openjdk6
   - openjdk7
   - oraclejdk7
   - oraclejdk8
 
 build:
+  pre_ci_boot:
+    image_name: drydock/u14javpls
+    image_tag: prod
+    pull: true  
   ci:
     - java -version
+    
